@@ -1,0 +1,43 @@
+{
+  "name": "@journey-to-code/open-cli-table",
+  "version": "1.0.0",
+  "description": "Formats arrays and objects into dependency-free ASCII tables for terminal output.",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js",
+      "default": "./src/index.js"
+    }
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "check": "npm test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/journey-to-code-org/open.cli-table.git"
+  },
+  "bugs": {
+    "url": "https://github.com/journey-to-code-org/open.cli-table/issues"
+  },
+  "homepage": "https://github.com/journey-to-code-org/open.cli-table#readme",
+  "keywords": [
+    "cli",
+    "table",
+    "ascii",
+    "terminal"
+  ],
+  "license": "MIT",
+  "sideEffects": false
+}
